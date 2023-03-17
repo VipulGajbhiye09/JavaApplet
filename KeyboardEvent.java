@@ -42,3 +42,22 @@ public void keyPressed(KeyEvent e)
   string4 = e.getKeyText(e.getKeyCode());
   repaint();
   }
+
+  public void keyTyped(KeyEvent e)
+  {
+  keyChar = e.getKeyChar(); // to get the actual Unicode character 
+  typed
+  if(keyChar == 'x')
+  string3 = "The key lower case x was pressed";
+  repaint();
+  } // end keyTyped
+  
+  public void paint(Graphics g)
+  {
+  g.drawString("Number of keys pressed is : " + number, 20, 60);
+  g.drawString("Character pressed is : " + keyChar, 20,80);
+  g.drawString("Key pressed is : " + string1, 20, 100);
+  g.drawString("Key released is : " + string4, 20, 120);
+  g.drawString("Action key pressed is : " + string2, 20, 140);
+  g.drawString(string3, 20, 160);
+  }

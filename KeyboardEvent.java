@@ -33,4 +33,12 @@ public void keyPressed(KeyEvent e)
   if(e.getKeyCode() == e.VK_RIGHT) // check if Right arrow key is pressed
   string2 = "Right Arrow key";
   if(e.getKeyCode() == e.VK_ENTER) // check if ENTER key is pressed
- 
+  string2 = "Enter key";
+  repaint();
+  } 
+
+  public void keyReleased(KeyEvent e)
+  {
+  string4 = e.getKeyText(e.getKeyCode());
+  repaint();
+  }

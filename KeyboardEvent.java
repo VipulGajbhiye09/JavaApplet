@@ -61,3 +61,8 @@ public void keyPressed(KeyEvent e)
   g.drawString("Action key pressed is : " + string2, 20, 140);
   g.drawString(string3, 20, 160);
   }
+  public void actionPerformed(ActionEvent e)
+  {
+  requestFocus();
+  } // end actionPerformed
+  }

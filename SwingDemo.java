@@ -31,3 +31,17 @@ l8.setBounds(50, 200, 70, 30);
 l9 = new JLabel("DBMS:");
 l9.setBounds(400, 250, 70, 30);
 
+t1 = new JTextField();
+t1.setBounds(150, 50, 130, 30);
+t2 = new JTextField();
+t2.setBounds(450, 100, 130, 30);
+t3 = new JTextField();
+t3.setBounds(450, 150, 130, 30);
+t4 = new JTextField();
+t4.setBounds(100, 150, 130, 30);
+t5 = new JTextField();
+t5.setBounds(450, 200, 130, 30);
+t6 = new JTextField();
+t6.setBounds(100, 200, 130, 30);
+t7 = new JTextField();
+t7.setBounds(450, 250, 130, 30);

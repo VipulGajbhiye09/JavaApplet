@@ -47,3 +47,16 @@ t6 = new JTextField();
 t6.setBounds(100, 200, 130, 30);
 t7 = new JTextField();
 t7.setBounds(450, 250, 130, 30);
+
+String s1[ ]= { " ", "CSE", "ECE", "EEE","CIVIL", "MECH", "Others" };
+String s2[ ]= { " ", "Div-A", "Div-B", "Div-C"};
+
+j1 = new JComboBox(s1);
+j1.setBounds(100, 100, 100, 30);
+j2 = new JComboBox(s2);
+j2.setBounds(470, 50, 140, 30);
+
+b1 = new JButton("Save");
+b1.setBounds(150, 300, 70, 30);
+b2 = new JButton("Close");
+b2.setBounds(420, 300, 70, 30);

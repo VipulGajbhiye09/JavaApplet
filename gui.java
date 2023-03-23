@@ -60,3 +60,16 @@ b1 = new JButton("Save");
 b1.setBounds(150, 300, 70, 30);
 b2 = new JButton("Close");
 b2.setBounds(420, 300, 70, 30);
+b1.addActionListener(new ActionListener() {
+public void actionPerformed(ActionEvent e)
+{
+
+String s1 = t1.getText();
+String s2 = t2.getText();
+String s3 = j1.getSelectedItem() + "";
+String s4 = j2.getSelectedItem() + "";
+String s5 = t3.getText();
+String s6 = t4.getText();
+String s7 = t5.getText();
+String s8 = t6.getText();
+String s9 = t7.getText();

@@ -73,3 +73,23 @@ String s6 = t4.getText();
 String s7 = t5.getText();
 String s8 = t6.getText();
 String s9 = t7.getText();
+
+  String res="";
+if (e.getSource() == b1) {
+res=res+"Name is: "+ s1 + " | ";
+res=res+ "Roll no is:"+s2 + " | ";
+res=res+"Branch is:"+ s3 + " | ";
+res=res+"Division is:"+ s4 + " | ";
+res=res+"Marks of MIC is:"+s5 + " | ";
+res=res+"Marks of EMF is:"+s6 + " | ";
+res=res+"Marks of DC is:"+s7 + " | ";
+res=res+"Marks of FJP is:"+s8 + " | ";
+res=res+"Marks of DBMS is:"+s9 + " | ";
+  
+// Shows a Pop up Message when save button is clicked
+JOptionPane.showMessageDialog(f,"Successfully Saved,:)");
+f.dispose();
+new ResultForm(res);
+}
+}
+});

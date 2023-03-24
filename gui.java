@@ -93,3 +93,17 @@ new ResultForm(res);
 }
 }
 });
+  
+b2.addActionListener(new ActionListener() {
+public void actionPerformed(ActionEvent e)
+{
+f.dispose();
+}
+});
+
+f.addWindowListener(new WindowAdapter() {
+public void windowClosing(WindowEvent e)
+{
+System.exit(0);
+}
+});  

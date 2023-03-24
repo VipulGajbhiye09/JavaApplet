@@ -132,3 +132,18 @@ f.setLayout(null);
 f.setSize(3000, 3000);
 f.setVisible(true);
 }
+
+public static void main(String args[])
+{
+StudentInfo();
+}
+}
+class ResultForm extends JFrame {
+public ResultForm(String res){
+super("Result Form");
+Label l1=new Label(res);
+add(l1);
+setSize(3000,3000);
+setVisible(true);
+}
+}
